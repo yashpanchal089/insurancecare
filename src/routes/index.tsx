@@ -77,10 +77,10 @@ function Hero() {
           <Reveal delay={500}>
             <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4">
               {[
-                { n: 2500, s: "+", l: "Happy Clients", icon: Users },
-                { n: 1800, s: "+", l: "Claims Settled", icon: ShieldCheck },
+                { n: 800, s: "+", l: "Happy Clients", icon: Users },
+                { n: 500, s: "+", l: "Claims Settled", icon: ShieldCheck },
                 { n: 120, s: " Cr+", l: "Investments Managed", icon: TrendingUp },
-                { n: 10, s: "+", l: "Years Experience", icon: Award },
+                { n: 13, s: "+", l: "Years Experience", icon: Award },
               ].map((s, i) => (
                 <div key={i} className="glass-card rounded-2xl p-4 hover-lift">
                   <s.icon className="w-5 h-5 text-accent mb-2" />
